@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="formulario.css">
+    <link rel="icon" href="./img/favicon.png" type="image/png">
+</head>
+<body>
+    <header>
+        <div>
+            <img src="./img/image.png.png" alt="Arcade Stars Logo">
+        </div>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="arcadestars.html">Arcade Stars</a></li>
+            <li><a href="android.html">Android</a></li>
+            <li><a href="ios.html">IOS</a></li>
+            <li><a href="pc.consoles.html">PC e Consoles</a></li>
+        </ul>
+    </nav>
+    <div>
+        <h1>Tire suas dúvidas com os próprios desenvolvedores</h1>
+        <h2>Formulário</h2>
+    </div>
+    <section>
+        <form action="paginafinal.html">
+            <h3>Formulário:</h3>
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="destinatario">Destinatário:</label>
+            <select id="destinatario" name="destinatario" required>
+                <option value="riotgames">Riot Games</option>
+                <option value="steam">Steam</option>
+                <option value="supercell">SuperCell</option>
+                <option value="garena">Garena</option>
+                <option value="epicgames">EpicGames</option>
+            </select>
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" required></textarea>
+            <div>
+                <button type="submit">Enviar</button>
+                <button type="reset">Apagar</button>
+            </div>
+        </form>
+    </section>
+</body>
+</html>
